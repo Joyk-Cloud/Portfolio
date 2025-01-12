@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joy U. Kasarachi | Cloud Security and DevOps Engineer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">Joy U. Kasarachi</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#blog">Blog</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <img src="C:\Users\joy\Pictures\profile-picture.jpg.jpg" alt="Joy U. Kasarachi" class="profile-img">
+      <h1>Hello, I'm Joy U. Kasarachi</h1>
+      <p>Cloud Security Engineer,DevOps Engineer, System Administrator, SOC Analyst</p>
+      <a href="#portfolio" class="cta-button">See My Work</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>As a Cloud Security and DevOps Engineer, I specialize in securing cloud infrastructures and automating CI/CD pipelines. I have a deep understanding of cloud platforms like Google Cloud and Azure, along with expertise in automation tools like Terraform, Docker, Kubernetes, and CI/CD pipelines. My goal is to ensure the safety and scalability of systems while optimizing their operational efficiency.</p>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <!-- Example project, add more as needed -->
+        <div class="project-card">
+          <img src="project-1.jpg" alt="Cloud Security Project">
+          <h3>Cloud Security Automation</h3>
+          <p>Automated cloud security policies using Terraform and GCP Security tools, ensuring compliance and reducing manual intervention.</p>
+          <a href="#" class="project-link">View Project</a>
+        </div>
+        <div class="project-card">
+          <img src="project-2.jpg" alt="CI/CD Automation">
+          <h3>CI/CD Automation with Azure DevOps</h3>
+          <p>Created a fully automated CI/CD pipeline for deployment on Azure using Terraform and Azure DevOps pipelines.</p>
+          <a href="#" class="project-link">View Project</a>
+        </div>
+        <!-- Add more projects here -->
+      </div>
+      <!-- Editable area for adding new projects -->
+      <button onclick="addNewProject()">Add New Project</button>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>GCP</li>
+        <li>Azure</li>
+        <li>GitHub Actions</li>
+        <li>CICD Automation</li>
+        <li>Terraform</li>
+        <li>Docker</li>
+        <li>Kubernetes</li>
+        <!-- Add more skills as needed -->
+      </ul>
+      <!-- Editable area for adding new skills -->
+      <button onclick="addNewSkill()">Add New Skill</button>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="experience">
+    <div class="container">
+      <h2>Experience</h2>
+      <ul>
+        <li>
+          <h3>Cloud Security Engineer Intern - Digital Witch</h3>
+          <p>Assisted in securing cloud infrastructures using GCP and Azure, managing network configurations and ensuring secure deployments.</p>
+        </li>
+        <li>
+          <h3>DevOps Engineer Intern</h3>
+          <p>Worked on automating CI/CD pipelines, using Docker and Kubernetes to containerize applications for improved scalability and deployment efficiency.</p>
+        </li>
+        <!-- Add more experience items as needed -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education">
+    <div class="container">
+      <h2>Education</h2>
+      <p>University Name - Degree - Year</p>
+      <!-- Editable space for adding your education details -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form" action="#">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Joy U. Kasarachi | All rights reserved</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
